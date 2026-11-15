@@ -33,17 +33,26 @@ WebMap is planned as a two-phase tool:
 Login and authentication are planned, along with possible storage of scanned websites and related data. Whether a database and full authentication system are necessary is still under consideration.
 
 ---
-
 ## Tech Stack
 
-- **Frontend:** React + Vite
-- **Backend / API / Authentication:** .NET
-- **Crawling / Parsing / Graphing Service:** Python
-- #todo add: authenticator 
-- #todo add: database 
-(Note on additions: Thinking about adding a save state potentially, however currently, just creating the base application. hense possibly the addition to .net for future capabilities and scaling possibilities.)
+### Current Stack
 
-> The .NET backend is partly intended to demonstrate different stack capabilities for portfolio purposes.
+- **Frontend:** React + Vite
+- **Backend API:** FastAPI
+- **Site Crawling & Analysis:** Python
+
+### Planned Expansion
+
+The initial version of WebMap focuses on validating the core crawling, mapping, and visualization functionality using a simplified architecture.
+
+Future versions may introduce:
+
+- **ASP.NET Core** for authentication and account management
+- Persistent scan storage
+- User accounts and saved project workspaces
+- Additional security, SEO, and accessibility analysis features
+
+The decision to introduce ASP.NET Core will depend on the complexity of future requirements and whether dedicated authentication and application-management services provide meaningful value to the project.
 
 ---
 
