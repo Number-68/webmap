@@ -72,6 +72,37 @@ Detailed architecture: **Work in progress**
 
 **Work in progress.**
 
+
+raw vernacular: keeping track of setup process.
+
+what is required? 
+python 3.12
+javascript... node version v26.2.0 is what I used for the start of this.
+
+necessary steps? 
+
+frontend (for now)
+run npm install 
+run command is npm run dev.
+
+for pythonfast api. 
+what are the setups? 
+you need to create the .venv 
+what I used is pyenv to create it and control python versions.
+
+use pyenv install to install everything
+Create the venv
+python3 -m venv .venv
+to get in. you can use your terminal command/ I use Ubuntu on wsl -- source .venv/bin/activate
+that shoudl put your terminal in the py environment.
+
+then you install all the requirements .txt.
+
+pip install -r requirements.txt
+
+
+
+
 ---
 
 ## Project Structure
