@@ -1,0 +1,24 @@
+{
+  "name": "webmap",
+  "version": "1.0.0",
+  "description": "A full-stack web application that takes a URL from the user, maps out its links and nested page connections, and displays the result as an interactive graph — similar to Obsidian's graph view.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "tsx scripts/init.ts",
+    "dev": "tsx scripts/dev.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Number-68/webmap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
