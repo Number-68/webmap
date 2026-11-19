@@ -33,14 +33,26 @@ WebMap is planned as a two-phase tool:
 Login and authentication are planned, along with possible storage of scanned websites and related data. Whether a database and full authentication system are necessary is still under consideration.
 
 ---
-
 ## Tech Stack
 
-- **Frontend:** React + Vite
-- **Backend / API / Authentication:** .NET
-- **Crawling / Parsing / Graphing Service:** Python
+### Current Stack
 
-> The .NET backend is partly intended to demonstrate different stack capabilities for portfolio purposes.
+- **Frontend:** React + Vite
+- **Backend API:** FastAPI
+- **Site Crawling & Analysis:** Python
+
+### Planned Expansion
+
+The initial version of WebMap focuses on validating the core crawling, mapping, and visualization functionality using a simplified architecture.
+
+Future versions may introduce:
+
+- **ASP.NET Core** for authentication and account management
+- Persistent scan storage
+- User accounts and saved project workspaces
+- Additional security, SEO, and accessibility analysis features
+
+The decision to introduce ASP.NET Core will depend on the complexity of future requirements and whether dedicated authentication and application-management services provide meaningful value to the project.
 
 ---
 
@@ -59,6 +71,37 @@ Detailed architecture: **Work in progress**
 ## Getting Started
 
 **Work in progress.**
+
+
+raw vernacular: keeping track of setup process.
+
+what is required? 
+python 3.12
+javascript... node version v26.2.0 is what I used for the start of this.
+
+necessary steps? 
+
+frontend (for now)
+run npm install 
+run command is npm run dev.
+
+for pythonfast api. 
+what are the setups? 
+you need to create the .venv 
+what I used is pyenv to create it and control python versions.
+
+use pyenv install to install everything
+Create the venv
+python3 -m venv .venv
+to get in. you can use your terminal command/ I use Ubuntu on wsl -- source .venv/bin/activate
+that shoudl put your terminal in the py environment.
+
+then you install all the requirements .txt.
+
+pip install -r requirements.txt
+
+
+
 
 ---
 
